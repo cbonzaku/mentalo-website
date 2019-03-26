@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+    
+     <title>MENTAL BLOG </title>
+     <!-- partie css -->
+     
+     <meta charset="UTF-8"  >
+     
+     <!-- pour bulma-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+     <!-- Pour le font  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    
+    
+   
+   
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    
+    
+    
+
+
+   
+</head>
+
+
+
+<body>
+    
+    <div class="bloc">
+        <header class="header">
+             <a href="#" class="logo"> Bienvenu </a>
+             <nav class="menu">
+                <a href="#" > Accueil </a>
+                <a href="#" >Cours </a>
+                <a href="#" >Astuces  </a>
+                <a href="#" >Vidéos </a>
+                <a href="#" >Pratique </a>
+                
+             </nav>
+            
+        </header>
+    </div>
+                            
+     
+     <div class="bloc">
+          <div class="banner" id="container">
+               <img class="img" src="img/img1.jpg" >
+               
+              <img class="img" src="img/img2.jpg" >
+           <img class="img" src="img/img3.jpg" >
+               
+               <img class="img" src="img/img4.jpg" >
+               
+              <img class="img" src="img/img5.png" >
+           <img class="img" src="img/img6.jpg" >
+               
+               <img class="img" src="img/img7.jpg" >
+               
+              <img class="img" src="img/img8.jpg" >
+        
+               
+      
+                <div class="banner-content">
+                    <h1 class="titre"> Mental Blog</h1>
+                </div>
+          
+               
+          </div>
+     </div>
+
+      
+      
+
+
+          
+         <script>
+                 var index=1;
+               
+               autoshowImg();
+              
+              function autoshowImg(){
+               var i;
+                var x= document.getElementsByClassName("img");
+                for(i=0;i<x.length;i++){
+                         
+                           x[i].style.display="none";
+                    }
+                    
+                if(index >x.length){ index =1};
+                x[index-1].style.display="block";
+                   
+               index++;
+               setTimeout(autoshowImg,4000);
+              }
+              
+          
+          
+         </script>
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   
+</body>
+</html>

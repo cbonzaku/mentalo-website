@@ -1,0 +1,138 @@
+
+*{
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background-image:url("2222.jpg");
+    opacity: 0.7;
+	background-size: cover;
+}
+#div2{
+    float: left;
+    color: white;
+    font-family: fantasy;
+    font-size: 150%;
+    text-align: center;
+    background-size:cover;
+    padding: 100px;
+    margin-top: 190px;
+    margin-left: 270px;
+}
+#div2 a{
+    text-decoration: none;
+    color: black;
+}
+#div2 h1{
+    border-top: 3px solid white;
+	border-bottom: 1px solid white;
+    width: 200px;
+	margin: auto;
+    cursor: pointer;
+    
+}
+header h3 {
+	margin:20px;
+	display:inline;
+	
+
+}
+
+header a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:white;
+	font-family: 'arial';
+}
+header a:hover{
+	color:red;
+	
+}
+header{
+	text-align: center;
+	background-image: url("header.jpg");
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	padding-top: 30px;
+	
+	
+}
+	
+		
+#div1{
+    float: right;
+	text-align: center;
+	color:white;
+	background-color: rgba(192,192,192,0.3);
+	width:400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+	padding: 50px;
+	z-index: 1;
+    
+    
+}
+.div2{
+	max-width: 300px;
+	text-align: center;
+	margin:10px;
+	margin:auto;
+	position: relative;
+	
+
+}
+.div2 input{
+width: 300px;
+padding: 7px;
+margin: 5px;
+border:1px solid blue;
+border-radius: 5px;
+font-family: "roboto",sans-sirif;
+font-size: 15px;
+}
+.div2 input:hover{
+	background-color: lightblue;
+	border-color: white;
+}
+legend{
+	font-family: verenda ,sans-sirif;
+	font-size: 150%;
+}
+
+
+#env{
+	text-transform: uppercase;
+	color:green;
+	background-color: white;
+	font-family: monospace;
+	width: 300px;
+	border:1px solid green;
+	border-radius:15px;
+	font-size: 20px;
+	padding: 20px;
+	margin:10px;
+	cursor: pointer;
+}
+#env:hover{
+	color:white;
+	background-color: green;
+    border: 2px solid white;
+
+}
+
+
+#deja{
+	color: green;
+	font-family: "roboto",sans-sirif;
+	font-size: 20px;
+	display:block;
+}
+.connect{
+    width: 0;
+    overflow: hidden;
+    transition: 1.5s;
+}

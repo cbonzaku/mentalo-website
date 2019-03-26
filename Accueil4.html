@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divise-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-compatibal" content="ie=edge">
+	<script defer="https://use.frontawsome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="Accueil4.css">
+	<title>Accueil</title>
+	
+</head>
+<body>
+    
+	<div class="wrapper">
+        <h1 >MENTALO</h1>
+        
+    <!-- Navigation -->
+    <nav class="main-nav">
+        
+        <h3><a href="Accueil4.html">Accueil</a></h3>	
+    	 <h3><a href="Cours.html">Cours</a></h3>
+        <h3><a onclick="window.open('astuce.html')">Astuce</a></h3>
+         
+    	 <h3><a href="S'inscrir.html">S'inscrir</a></h3>
+    	 <h3 id="cn"><a onclick="document.getElementById('conn').style.height = '250px';"  ondblclick="document.getElementById('conn').style.height = '0';">Se connecter</a>
+    </nav>
+    
+    <!-- Top Container -->
+    <section class="top-container">
+      <header class="showcase">
+        <h1>la depression et comment y'en echape? </h1>
+        <p>L</p>
+        <a href="Cours.html" class="btn">Afficher plus</a>
+      </header>
+      <div class="top-box top-box-a">
+        <h3>Reglement</h3>
+        <p class="price"></p>
+        <a href="" class="btn">Consultez</a>
+      </div>
+      <div class="top-box top-box-b">
+        <h3>Calendrille</h3>
+        <p class="price"></p>
+        <a href="" class="btn">Evement</a>
+      </div>
+    </section>
+
+    <!-- Boxes Section -->
+    <section class="boxes">
+      <div class="box">
+        <i class="fas fa-chart-pie fa-4x"></i>
+        <h3>DEBAT</h3>
+        <p>DEbatre sur des thems sociaux politique ou meme theorique dans divers sujet pour le but d'une etude social</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-globe fa-4x"></i>
+        <h3>Cours</h3>
+        <p>Des cours un peux plus pousser sur la therapie de groupe ou personnelle</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-cog fa-4x"></i>
+        <h3>Development</h3>
+        <p>Quelque astuce sous format video qui peuvent vous aider dans la vie de tous les jours</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-users fa-4x"></i>
+        <h3>Bientot</h3>
+        <p>Nous Prevoyons d'ajouter un test sous forme de jeux qui vous diras un peux plus sur vous votre facons de penser votre memoir et esque vous l'exploiter au mieux</p>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+      <img src="lol.jpg" alt="">
+      <div>
+        <h2>Dernier cours</h2>
+        <p>les emotions humaines</p>
+        <a href="astuce.html" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio">
+     <img class="img" src="img/img1.jpg" >
+               
+            <script>
+                 var index=1;
+               
+               autoshowImg();
+              
+              function autoshowImg(){
+               var i;
+                var x= document.getElementsByClassName("img");
+                for(i=0;i<x.length;i++){
+                         
+                           x[i].style.display="none";
+                    }
+                    
+                if(index >x.length){ index =1};
+                x[index-1].style.display="block";
+                   
+               index++;
+               setTimeout(autoshowImg,4000);
+              }
+             
+          
+         </script>
+
+ <div class="bloc">
+          
+               <img ons class="img" src="img/img1.jpg" >
+               <img class="img" src="img/img2.jpg" >
+               <img class="img" src="img/img3.jpg" >
+              
+
+
+           </div>
+    </section>
+
+    <!-- Footer -->
+    <footer><p>bekkaye &amrouche; 2018</p>
+      
+    </footer>
+
+  </div>
+        <div class="connect" id="conn">
+                 <input class="c" type="text"  id="c1" placeholder="Adresse ou Nom">
+                 <input class="c" type="password"  id="c2" placeholder="Mot de passe">!
+                 <button class="c button99" style="background-color:lightblue" >connect</button>
+             </div>
+  <!-- Wrapper Ends -->
+  <!-- Wrapper Ends -->
+</body>
+</html>

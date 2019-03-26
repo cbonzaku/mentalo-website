@@ -1,0 +1,81 @@
+/*
+ header 
+*/
+.header{
+   color: white;
+        height:80px;
+        background-image:url("header.jpg");
+        opacity: 0.7;
+        position :fixed;
+        top:0px;
+        left: 0px;
+        width: 100%;
+        margin: 5px;
+        margin:auto;
+        display:inline-flex;
+        transition: all 0.8s ease;
+        z-index: 2;
+    
+}
+
+.header .logo{
+    color: #fff;
+    float: left;
+    margin-left: 30px;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.header .menu{
+    float: right;
+    margin-right: 30px;
+}
+
+.header .menu a{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+    
+}
+
+.header .menu a:hover{
+    color: red;
+}
+.banner{
+    top: 20px;
+}
+
+
+
+.banner .img{
+    width: 100%;
+    position: relative;
+}
+
+.banner .banner-content{
+    top: 70px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.banner .banner-content .titre{
+    color: #541313;
+    font-size: 40px;
+    font-family:  'Montserrat', sans-serif;
+    
+    
+}
+.footer{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: #232121;
+    position: fixed;
+   top: 0; 
+    z-index: 999; 
+}
+.seg{
+    display: inline-flex;
+}
